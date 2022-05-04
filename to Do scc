@@ -1,0 +1,10 @@
+#MainStr 
+{
+margin: 0 auto;
+color: aqua;
+}
+h2
+{
+margin-top: 10px;
+color: blue;
+}
