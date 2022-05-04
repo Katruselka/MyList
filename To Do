@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title> My list </title>
+    <link rel="Stylesheet"  type="text/css" href="To do beg.css">
+    <script type="text/javascript" src="xxx.js"> </script>
+</head>
+<body>
+    <div id="MainStr">
+        <h1>
+            Ваши дела на сегодня
+        </h1>
+    </div>
+    <div>
+        <h2> Задания:</h2>
+        <ul>
+            <input type="text" size="40" placeholder="введите свои планы" id="userinput">  <button id="enter" type="submit"> +Add </button>
+        </ul>
+    </div>
+    <div>
+        <h2> To do </h2>
+        <p> <li>
+            <input type="text" size="70">
+            <output name="result" ></output> 
+            <button> del </button>
+            </li>
+        </p>
+    </div>
+    
+   
+</body>
+</html>
