@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title> My list </title>
     <link rel="Stylesheet"  type="text/css" href="To do beg.css">
-    <script type="text/javascript" src="xxx.js"> </script>
+    <script type="text/javascript" src="To do beg.js"> </script>
 </head>
 <body>
     <div id="MainStr">
@@ -15,15 +15,14 @@
     <div>
         <h2> Задания:</h2>
         <ul>
-            <input type="text" size="40" placeholder="введите свои планы" id="userinput">  <button id="enter" type="submit"> +Add </button>
+            <input type="text" size="40" placeholder="введите свои планы" id="userinput">  
+                    <button id="enter" type="submit"> Добавить </button>
         </ul>
     </div>
     <div>
         <h2> To do </h2>
         <p> <li>
-            <input type="text" size="70">
-            <output name="result" ></output> 
-            <button> del </button>
+           <output name="array"> </output>
             </li>
         </p>
     </div>
