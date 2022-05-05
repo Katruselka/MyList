@@ -1,5 +1,10 @@
-let inputs = document.getElementById("enter");
-
-for (let input of inputs) {
-    alert( input.value + ': ' + input.checked );
-  }
+var button = document.getElementById("enter");
+var input = document.getElementById("userinput");
+var array = [];
+let i = 0;
+if (input !== "")
+    {
+        array[i] += input;
+        i++; 
+        return array[i];
+    }
