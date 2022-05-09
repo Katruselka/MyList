@@ -1,10 +1,5 @@
-var button = document.getElementById("enter");
-var input = document.getElementById("userinput");
-var array = [];
-let i = 0;
-if (input !== "")
-    {
-        array[i] += input;
-        i++; 
-        return array[i];
-    }
+function tuskfunc() {
+    var inputstr = document.getElementById("userinput").value;
+    document.getElementById('result').innerHTML = inputstr;
+                }
+document.getElementById('enter').addEventListener('submit', tuskfunc);
